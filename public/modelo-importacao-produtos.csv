@@ -1,0 +1,6 @@
+titulo,descricao,categoria,preco,preco_promocional,em_promocao,url_imagem
+"Ração Premium Adulto","Nutrição completa com ingredientes naturais para cães adultos de todas as raças.","Alimentação","R$ 89,90","R$ 74,90","sim","https://exemplo.com/imagem1.jpg"
+"Shampoo Suave Felinos","Fórmula delicada com pH neutro para gatos de pelo longo e curto.","Higiene","R$ 35,00","","não","https://exemplo.com/imagem2.jpg"
+"Coleira Ajustável Premium","Coleira confortável e resistente com fivela de liberação rápida. Disponível em 3 tamanhos.","Acessórios","R$ 49,90","R$ 39,90","sim","https://exemplo.com/imagem3.jpg"
+"Bola Interativa com Luz","Brinquedo eletrônico que rola sozinho e acende luzes coloridas para prender a atenção do pet.","Brinquedos","R$ 65,00","","não","https://exemplo.com/imagem4.jpg"
+"Petisco Funcional Articular","Snack com glucosamina e condroitina para suporte às articulações de cães sênior.","Alimentação","R$ 42,00","R$ 34,00","sim","https://exemplo.com/imagem5.jpg"
