@@ -155,7 +155,7 @@ export default function Home() {
             Torne o seu pet uma prioridade com nossos produtos exclusivos para a felicidade e bem-estar dele no dia a dia.
           </motion.p>
           <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.5 }} className="relative flex flex-col sm:flex-row items-center justify-center gap-4 z-10">
-            <PawButton variant="purple" className="px-8 py-3.5 text-base w-full sm:w-auto">
+            <PawButton href="/catalogo" variant="purple" className="px-8 py-3.5 text-base w-full sm:w-auto">
               Explorar Loja <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </PawButton>
             <PawButton href="/sobre#missao" variant="white" className="px-8 py-3.5 text-base w-full sm:w-auto">Nossa Missão</PawButton>
@@ -225,7 +225,7 @@ export default function Home() {
           <p className="text-gray-500 mb-10 leading-relaxed max-w-md text-lg font-medium">
             Em nossa loja, sabemos que seus pets são parte da família. Por isso, oferecemos apenas os produtos que nós usaríamos nos nossos.
           </p>
-          <PawButton variant="dark" className="px-8 py-4 text-sm w-full sm:w-auto inline-flex mb-4">
+          <PawButton href="/sobre" variant="dark" className="px-8 py-4 text-sm w-full sm:w-auto inline-flex mb-4">
             Ver Informações <ArrowRight size={16} className="group-hover:translate-x-1.5 transition-transform" />
           </PawButton>
         </motion.div>

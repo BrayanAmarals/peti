@@ -2,7 +2,6 @@ import { Inter, Quicksand } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
 import { Providers } from "@/components/Providers";
 import DevDisclaimer from "@/components/DevDisclaimer";
 
@@ -19,8 +18,21 @@ const quicksand = Quicksand({
 });
 
 export const metadata = {
-  title: "Peti - Care for Your Pet",
-  description: "A beautiful pet care service",
+  title: "Peti — O Melhor para o Seu Pet",
+  description: "Loja de produtos premium para cães e gatos. Alimentação, higiene, acessórios e brinquedos selecionados com carinho para o seu melhor amigo.",
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
+  openGraph: {
+    title: "Peti — O Melhor para o Seu Pet",
+    description: "Loja premium de produtos para pets. Qualidade e carinho em cada produto.",
+    type: "website",
+    locale: "pt_BR",
+  },
 };
 
 export default function RootLayout({ children }) {
