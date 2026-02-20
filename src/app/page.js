@@ -92,7 +92,11 @@ export default function Home() {
       mouseX.set((e.clientX / window.innerWidth) * 40 - 20);
       mouseY.set((e.clientY / window.innerHeight) * 40 - 20);
       const target = e.target;
-      setIsHovering(target.tagName.toLowerCase() === "button" || target.closest("button") || target.tagName.toLowerCase() === "a");
+      const tag = target?.tagName?.toLowerCase?.() ?? "";
+      setIsHovering(
+        tag === "button" || tag === "a" ||
+        !!target?.closest?.("button") || !!target?.closest?.("a")
+      );
     };
     window.addEventListener("mousemove", handleMouseMove);
     return () => window.removeEventListener("mousemove", handleMouseMove);
