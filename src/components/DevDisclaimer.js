@@ -6,7 +6,7 @@ import { Info, Github, Globe, X } from "lucide-react";
 
 // ⚙️ Configure seus links aqui:
 const GITHUB_URL = "https://github.com/BrayanAmarals";
-const PORTFOLIO_URL = "https://brayanamaral.vercel.app/";
+const PORTFOLIO_URL = "https://brayan-portfolio.vercel.app/";
 
 export default function DevDisclaimer() {
     const [open, setOpen] = useState(false);
